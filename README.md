@@ -27,4 +27,6 @@ java MinSpanTree
 To run the all the graph with selected V and E number, first comment out the line in file inputVE.txt. Then run with the code below:
 java -Xmx10g MinSpanTree
 
-You may need to change the route of the input file: inputVE.txt in the code
+You may need to change the route of the input file: inputVE.txt in the code.
+
+Copy right by Xiaopeng Xu. E-mail: charlesxu90@gmail.com
