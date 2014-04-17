@@ -17,6 +17,7 @@ Finally, we use R and Excel to exemplify our results. R is used to create the sa
 
 
 %%%%%%%%%%%%%%
+
 To run the codes, 
 First compile the codes with:
 javac MinSpanTree.java
