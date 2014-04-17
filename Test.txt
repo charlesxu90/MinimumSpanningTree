@@ -1,0 +1,33 @@
+The original testing Graph's adjacency Matrix:
+0.0 7.082946 90.48127 0.0 0.0 60.221104 
+7.082946 0.0 0.0 60.091545 26.351196 70.99205 
+90.48127 0.0 0.0 26.478182 5.228212 0.0 
+0.0 60.091545 26.478182 0.0 11.810463 56.472195 
+0.0 26.351196 5.228212 11.810463 0.0 0.0 
+60.221104 70.99205 0.0 56.472195 0.0 0.0
+
+The MST of this Graph:
+0.0 7.082946 0.0 0.0 0.0 0.0 
+7.082946 0.0 0.0 0.0 26.351196 0.0 
+0.0 0.0 0.0 0.0 5.228212 0.0 
+0.0 0.0 0.0 0.0 11.810463 56.472195 
+0.0 26.351196 5.228212 11.810463 0.0 0.0 
+0.0 0.0 0.0 56.472195 0.0 0.0
+
+Total weight of resulting MST for the four algorithms:
+1. Prim's AM: 106.94501
+2. Prim's lazy PQ: 106.94501
+3. Prim's eager PQ: 106.94501
+4. Kruskal's PQ: 106.94501
+
+Appendix:
+1. R codes to draw a graph from Adjacency matrix. 
+ 
+ library(igraph)
+ rm(list=ls())
+ dat=read.csv(file.choose(),header=FALSE,check.names=T) # read .csv file
+ m=as.matrix(dat)
+ mode(m)<-"numeric"
+ g <- graph.adjacency( m, weighted=TRUE, mode="undirected", diag=FALSE)
+ plot(g, edge.label=round(E(g)$weight, 3))
+2. The files to select is adjMatOri.csv and adjMatMST.csv.
