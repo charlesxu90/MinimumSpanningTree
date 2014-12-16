@@ -5,7 +5,7 @@ Thank you for reading my code.
 
 Here in this code, I included 4 algorithms to inplememt minimum spanning tree.
 They are as follows:
- * 1. Prim's using adjacency matrix: Prim_AM.java;
+1. Prim's using adjacency matrix: Prim_AM.java; 1
  * 2. Prim's using lazy Priority Queue: Prim_PQ_lazy.java;
  * 3. Prim's using eager Priority Queue: Prim_PQ_eager.java;
  * 4. Kruskal's using Priority Queue: Kruskal_PQ.java.
