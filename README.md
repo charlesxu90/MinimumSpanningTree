@@ -5,10 +5,10 @@ Thank you for reading my code.
 
 Here in this code, I included 4 algorithms to inplememt minimum spanning tree.
 They are as follows:
-1. Prim's using adjacency matrix: Prim_AM.java;
-2. Prim's using lazy Priority Queue: Prim_PQ_lazy.java;
-3. Prim's using eager Priority Queue: Prim_PQ_eager.java;
-4. Kruskal's using Priority Queue: Kruskal_PQ.java.
+ * 1. Prim's using adjacency matrix: Prim_AM.java;
+ * 2. Prim's using lazy Priority Queue: Prim_PQ_lazy.java;
+ * 3. Prim's using eager Priority Queue: Prim_PQ_eager.java;
+ * 4. Kruskal's using Priority Queue: Kruskal_PQ.java.
 
 To check my codes are right, we used a sample graph to test it. The graph has 6 vertices and 10 edges.(As show in input.txt and inputE.txt). The testing results is shown in Test.txt.
 
